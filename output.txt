@@ -1,0 +1,29 @@
+X O X 
+O O X 
+O S E 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X     X       X X X X X ° ° ° ° ° ° X X X ° ° ° ° ° ° ° ° X             X       X X 
+S ° X X X X       ° ° ° ° X X X X ° ° ° ° ° X X X X X X ° X   X X X X   X   X   X X 
+X ° ° ° ° X X X X ° X X X     X X   X X X X X       X X ° X   X X       X   X   X X 
+X X X X ° ° ° ° ° ° X X X   X X X   X X X       X   X X ° X   X X X   X X   X   X X 
+X   X X X X   X   X X X     X       X X X X X   X     ° °     X X X         X   X X 
+X             X X X X X X X X X X X X X X X X X X X   ° X X X X X X X   X X       X 
+X X X X X X                           X X X     X X X ° X               X X X   X X 
+X   X       X X X X X X   X X X X X X X X X           ° X X X X   X X   X X X   X X 
+X             X X X X X X X X X X X X X X X X X X X   ° X X X X X X X X X X       X 
+X X X X X X X X                       X X X     X X X ° X               X X X   X X 
+X   X       X X X X X X   X X X X X X X X X           ° X X X X   X X   X X X   X X 
+X   X   X                 X X X X X X           X X X °           X X   X X X   X X 
+X             X X X X X X X X X X X X X X X X X X X   ° X X X X X X X X X X       X 
+X X X X X X X X                       X X X     X X X ° X       ° ° ° ° X X X   X X 
+X   X       X X X X X X   X X X X X X X X X           ° X X X X ° X X ° X X X   X X 
+X   X   X                 X X X X X X           X X X ° ° ° ° ° ° X X ° X X X   X X 
+X   X   X X X X X X X X         X X     X X X   X X X X   X X X X X X ° X X X X X X 
+X   X         X X   X X   X X         X X   X   X X X X   X X X X X X ° °       X X 
+X   X   X X         X X       X   X X X X         X X X         X X X X ° X X X X X 
+X       X X   X X X X X X X X X   X X X X X X X   X X X   X X     X X X ° ° ° X X X 
+X X   X X X X X X           X X   X         X X           X X         X X X ° X X X 
+X X         X X X   X X X   X X   X   X X   X X   X X X   X X X X X   X X X ° X X X 
+X X   X X             X X   X X   X     X   X X   X X X   X X X X       X X ° X X X 
+X X   X X   X X X   X X X   X X   X X   X   X X   X         X X     X   X X ° X X X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X E X X X 
