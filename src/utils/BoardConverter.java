@@ -28,6 +28,7 @@ public class BoardConverter {
 				}
 			}
 		}
+		
 		return integerBoard;
 	}
 
@@ -59,6 +60,7 @@ public class BoardConverter {
 				return true;
 			}
 		}
+		
 		return false;
 	}
 

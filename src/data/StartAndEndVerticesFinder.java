@@ -12,7 +12,6 @@ public class StartAndEndVerticesFinder {
 			for (int j = 0; j < charBoard[0].length; j++) {
 				if (charBoard[i][j] == BoardConverter.START_CHAR) {
 					this.start= integerBoard[i][j];
-					
 				} else if (charBoard[i][j] == BoardConverter.END_CHAR) {
 					this.end = integerBoard[i][j];
 					

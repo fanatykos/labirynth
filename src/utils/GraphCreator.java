@@ -13,6 +13,7 @@ public class GraphCreator {
 				}
 			}
 		}
+		
 		return graph;
 	}
 
@@ -30,6 +31,7 @@ public class GraphCreator {
 		if ((y + 1) < integerBoard[0].length && integerBoard[x][y + 1] != -1) {
 			graph.addConnection(integerBoard[x][y], integerBoard[x][y + 1]);
 		}
+		
 		return false;
 	}
 }

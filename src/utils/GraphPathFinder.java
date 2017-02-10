@@ -31,6 +31,7 @@ public class GraphPathFinder {
 			path.add(w);
 		}
 		path.add(start);
+		
 		return path;
 
 	}

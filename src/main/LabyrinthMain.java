@@ -37,4 +37,5 @@ public class LabyrinthMain {
 		BoardPrinter boardPrinter = PrinterChooser.getInstance().choose();
 		boardPrinter.print(resultCharBoard);
 	}
+	
 }

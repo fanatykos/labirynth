@@ -23,8 +23,10 @@ public class FileInput {
 		} catch (FileNotFoundException e) {
 			System.err.println("Podany plik nie istnieje");
 		} catch (IOException e) {
-			System.err.println("B³¹d odczytu danych");
+			System.err.println("Bï¿½ï¿½d odczytu danych");
 		}
+		
 		return charTable;
 	}
+	
 }

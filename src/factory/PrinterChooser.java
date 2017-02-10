@@ -6,23 +6,22 @@ import output.BoardPrinter;
 import output.FileBoardPrinter;
 
 public class PrinterChooser {
-	private static PrinterChooser printChooser = null;
+	private static PrinterChooser instance = null;
 
 	private PrinterChooser() {
 	}
 
 	public static synchronized PrinterChooser getInstance() {
-		if (printChooser == null) {
-			printChooser = new PrinterChooser();
-			return printChooser;
+		if (instance == null) {
+			instance = new PrinterChooser();
 		}
-		return printChooser;
+
+		return instance;
 	}
 
 	public BoardPrinter choose() {
-		System.out.println("Wciœnij 1, aby wyœwietliæ labirynt");
-		System.out.println("Wciœnij 2, aby zapisaæ labirynt do pliku "
-				+ FileBoardPrinter.OUTPUT_FILE_NAME);
+		System.out.println("Wciï¿½nij 1, aby wyï¿½wietliï¿½ labirynt");
+		System.out.println("Wciï¿½nij 2, aby zapisaï¿½ labirynt do pliku " + FileBoardPrinter.OUTPUT_FILE_NAME);
 		String choosedNumber = "";
 		Scanner input = new Scanner(System.in);
 		BoardPrinterFactory boardPrinterFactory = new BoardPrinterFactory();

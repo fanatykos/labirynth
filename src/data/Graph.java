@@ -38,14 +38,15 @@ public class Graph {
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
-		result.append("Liczba wierzcho³ków w grafie: ")
-				.append(getNumberOfVertices()).append(", liczba krawêdzi: ")
+		result.append("Liczba wierzchoï¿½kï¿½w w grafie: ")
+				.append(getNumberOfVertices()).append(", liczba krawï¿½dzi: ")
 				.append(getNumberOfEdges()).append("\n");
 		for (int i = 0; i < graphList.size(); i++) {
-			result.append("Wierzcho³ek: ").append(i)
-					.append(", posiada po³¹czenia z wierzcho³kami: ")
+			result.append("Wierzchoï¿½ek: ").append(i)
+					.append(", posiada poï¿½ï¿½czenia z wierzchoï¿½kami: ")
 					.append(getNeighbourhoodList(i)).append("\n");
 		}
+		
 		return result.toString();
 	}
 }
